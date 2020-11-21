@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\.homeycompose",
-    "\\.homeycompose\\drivers",
     "\\.homeycompose\\flow",
+    "\\.homeycompose\\flow\\actions",
     "\\drivers",
     "\\drivers\\virtual-power-meter"
   ],
-  "SelectedNode": "\\drivers\\virtual-power-meter\\driver.js",
+  "SelectedNode": "\\README.txt",
   "PreviewInSolutionExplorer": false
 }

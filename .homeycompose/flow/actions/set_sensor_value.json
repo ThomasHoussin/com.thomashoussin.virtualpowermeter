@@ -1,0 +1,31 @@
+{
+      "id": "set_sensor_value",
+      "title": {
+          "en": "Set a virtual sensor value",
+          "fr": "Règle la valeur d'un capteur virtuel"
+      },
+      "args": [
+          {
+             "name": "sensor",
+             "type": "text",
+             "placeholder": {
+                  "en": "Sensor",
+                  "fr": "Capteur"
+              }
+          },
+          {
+              "name": "value",
+              "type": "text",
+              "placeholder": {
+                  "en": "Value",
+                  "fr": "Valeur"
+              }
+          },
+          {
+              "name": "device",
+              "type": "device",
+              "filter": "driver_id=virtual-power-meter"
+          }
+      ]
+}
+

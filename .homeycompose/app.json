@@ -1,6 +1,6 @@
 {
   "id": "com.thomashoussin.virtualpowermeter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": ">=3.1.0",
   "sdk": 2,
   "name": {
@@ -8,7 +8,7 @@
     "fr": "Virtual Power Meter"
   },
   "description": {
-    "en": "Adds a virtual cumulative power meter in Homey"
+    "en": "Adds a cumulative, virtual power meter in Homey"
   },
   "category": [
     "energy"
@@ -30,7 +30,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/ThomasHoussin"
+    "url": "https://github.com/ThomasHoussin/com.thomashoussin.virtualpowermeter/issues"
   },
-  "source": "https://github.com/ThomasHoussin"
+  "source": "https://github.com/ThomasHoussin/com.thomashoussin.virtualpowermeter"
 }
