@@ -1,0 +1,37 @@
+{
+  "id": "virtual-power-meter",
+  "name": {
+    "en": "Virtual Power Meter",
+    "fr": "Virtual Power Meter"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_current",
+    "measure_power",
+    "meter_power",
+    "measure_voltage"
+  ],
+  "energy": {
+    "cumulative": true
+  },
+  "images": {
+    "large": "/drivers/virtual-power-meter/assets/images/large.png",
+    "small": "/drivers/virtual-power-meter/assets/images/small.png"
+  },
+  "pair": [
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_devices"
+      },
+      "options": {
+        "singular": false
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ]
+}
